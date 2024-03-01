@@ -71,6 +71,13 @@ Caso aconteça um erro nos dados enviados para o server (Bloco -> **Converte bas
 Existe uma frase padrão para o erro, mas você pode alterar da forma que precisar.
 
 
+**Observação**: Antes de passar essa variavel "stringBase64" para a chamada da extensão, faça uma condição de saida para verificar se mesma contem um objeto com a seguinte propriedade: {'REDUCED':TRUE}, conformte tela abaixo:
+
+![image](https://github.com/Wilkor/doc-plugin-base64-to-file/assets/34819624/3b51e99c-94bc-4694-89fe-e956bfe18c70)
+
+Em caso positive essa será redicionada para o bloco de erro "Retorno com erro [Return with error]" ou outro bloco que você pode definir.
+
+
 Em caso de dúvidas, você pode entrar em contato conosco para tirar qualquer tipo de dúvida sobre a configuração da extensão
 
 E-mail: contato@pontoparse.net
