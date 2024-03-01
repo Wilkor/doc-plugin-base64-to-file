@@ -1,13 +1,12 @@
 ![WhatsApp Image 2024-01-15 at 10 46 51](https://github.com/Wilkor/doc-plugin-fura-fila/assets/34819624/acaf6e2b-c51c-435d-ae54-becbc8fe0b47)
 
-
 # Como utilizar a extensão Base64 to File!
 
 Muito simples, basta seguir o passo a passo abaixo para ativar e configurar sua extensão:
 
- - Ao lado de Home na tela principal, clique em Blip Store, depois no menu lateral, clique em extensões;
- - Procure por **Base64 to File** e clique em ativar **(Instalar em seu bot Router/Roteador)**;
- - Após a instalação da extensão, siga os passos abaixo;
+- Ao lado de Home na tela principal, clique em Blip Store, depois no menu lateral, clique em extensões;
+- Procure por **Base64 to File** e clique em ativar **(Instalar em seu bot Router/Roteador)**;
+- Após a instalação da extensão, siga os passos abaixo;
 
 
 # Como usar?
@@ -17,7 +16,7 @@ Depois de instalado a extensão, você terá a tela abaixo:
 ![image](https://github.com/Wilkor/doc-plugin-base64-to-file/assets/34819624/23d2c624-a2d3-4671-9461-f3b7dfb27749)
 
 
-Agora, você deve selecionar o chatbot que você deseja copiar os blocos que serão responsaveis pela conversão da base64 para arquivo.
+Agora, você deve selecionar o chatbot que você deseja copiar os blocos que serão responsáveis pela conversão da base64 para arquivo.
 
 ![image](https://github.com/Wilkor/doc-plugin-base64-to-file/assets/34819624/1b25d56e-a0ea-4884-9437-f8fa5b01d6c4)
 
@@ -32,10 +31,10 @@ Após clicar em instalar, você deve acessar o builder do chatbot selecionado, l
 
 Bloco -> **Converte base64 em PDF [ Convert base64 to PDF]**
 
-Esse bloco é responsavel por enviar duas informações para o servidor da .parse(), são elas:
+Esse bloco é responsável por enviar duas informações para o servidor da .parse(), são elas:
 
 - contact.identity = id do usuário;
-- stringBase64 = variavel que você tem que criar para receber a string base64 que vem de alguma consulta via API;
+- stringBase64 = variável que você tem que criar para receber a string base64 que vem de alguma consulta via API;
   
 ![image](https://github.com/Wilkor/doc-plugin-base64-to-file/assets/34819624/f12c7358-7f81-41fa-bd6f-2d8bc9ac3f78)
 
@@ -50,7 +49,7 @@ Esse bloco é responsavel por enviar duas informações para o servidor da .pars
 
 Bloco -> **Exibe arquivo [Display file]**
 
-Esse bloco é resposnavel por exibir o arquivo depois de todo processo acima;
+Esse bloco é responsável por exibir o arquivo depois de todo processo acima;
 
 ![image](https://github.com/Wilkor/doc-plugin-base64-to-file/assets/34819624/a5cc8037-f9f3-41df-878b-66dfdecefbc7)
 
@@ -71,19 +70,13 @@ Caso aconteça um erro nos dados enviados para o server (Bloco -> **Converte bas
 Existe uma frase padrão para o erro, mas você pode alterar da forma que precisar.
 
 
-**Observação**: Antes de passar essa variavel "stringBase64" para a chamada da extensão, faça uma condição de saida para verificar se mesma contem um objeto com a seguinte propriedade: {'REDUCED':TRUE}, conformte tela abaixo:
+**Observação**: Antes de passar essa variável "stringBase64" para a chamada da extensão, faça uma condição de saída para verificar se a mesma contém um objeto com a seguinte propriedade: {'REDUCED':TRUE}, conforme tela abaixo:
 
 ![image](https://github.com/Wilkor/doc-plugin-base64-to-file/assets/34819624/3b51e99c-94bc-4694-89fe-e956bfe18c70)
 
-Em caso positive essa será redicionada para o bloco de erro "Retorno com erro [Return with error]" ou outro bloco que você pode definir.
+Em caso positivo essa será redirecionada para o bloco de erro "Retorno com erro [Return with error]" ou outro bloco que você pode definir.
 
 
 Em caso de dúvidas, você pode entrar em contato conosco para tirar qualquer tipo de dúvida sobre a configuração da extensão
 
 E-mail: contato@pontoparse.net
-
-
-
-
-
-
