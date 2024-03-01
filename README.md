@@ -76,6 +76,8 @@ Existe uma frase padrão para o erro, mas você pode alterar da forma que precis
 
 Em caso positivo essa será redirecionada para o bloco de erro "Retorno com erro [Return with error]" ou outro bloco que você pode definir.
 
+Isso acontece quando a stringBase64 é maior 49152 bytes.
+
 
 Em caso de dúvidas, você pode entrar em contato conosco para tirar qualquer tipo de dúvida sobre a configuração da extensão
 
